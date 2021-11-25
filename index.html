@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
   <head>
     <title>Yo8Fitness</title>
@@ -9,6 +13,7 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link href="node_modules/aos/dist/aos.css" rel="stylesheet" />
   </head>
   <body class="is-preload">
     <!-- Nav -->
@@ -35,8 +40,10 @@
               <h1>Hi. I'm <strong> Neelam Dutta </strong>.</h1>
             </header>
             <p>
-              <strong>Govt. of India approved</strong> yoga instructor and certified 
-              <a href="https://www.zumba.com/en-US/member-benefits">ZIN</a> adminstrator
+              <strong>Govt. of India approved</strong> yoga instructor and
+              certified
+              <a href="https://www.zumba.com/en-US/member-benefits">ZIN</a>
+              adminstrator
             </p>
             <a href="#work" class="button large scrolly"
               >Learn about what I do</a
@@ -48,26 +55,43 @@
 
     <!-- Work -->
     <article id="work" class="wrapper style2">
-      <div class="container">
+      <div
+        class="container"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
         <header>
           <h2>Here's all the stuff I do.</h2>
           <p>Odio turpis amet sed consequat eget posuere consequat.</p>
         </header>
         <div class="row aln-center">
-          <div class="col-4 col-6-medium col-12-small">
+          <div
+            class="col-4 col-6-medium col-12-small"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <section class="box style1">
               <span class="icon featured fa-comments"></span>
               <h3>Yoga</h3>
               <!-- <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_kvwtrk4n.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_kvwtrk4n.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player>></lottie-player> -->
-              <img
-                src="gifs/yoga2.gif"
-                class="img-fluid"
-                alt=""
-                width="300"
-                height="300"
-              /> 
-			  <p>
-                Derived from the Sanskrit word “yuji,” meaning yoke or union, yoga is an ancient practice that brings together mind and body.
+              <div
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <img
+                  src="gifs/yoga2.gif"
+                  class="img-fluid"
+                  alt=""
+                  width="300"
+                  height="300"
+                />
+              </div>
+              <p>
+                Derived from the Sanskrit word “yuji,” meaning yoke or union,
+                yoga is an ancient practice that brings together mind and body .
               </p>
             </section>
           </div>
@@ -85,7 +109,8 @@
               />
 
               <p>
-                Practice pranayama and meditation for increased focus and productivity.
+                Practice pranayama and meditation for increased focus and
+                productivity .
               </p>
             </section>
           </div>
@@ -93,15 +118,17 @@
             <section class="box style1">
               <span class="icon featured fa-thumbs-up"></span>
               <h3>Zumba</h3>
-			  <img
-                src="images/zumba_logo.jpg"
+              <img
+                src="gifs/zumba_logo.jpg"
                 class="img-fluid"
                 alt=""
                 width="200"
                 height="300"
               />
               <p>
-                Traditional Zumba workouts emphasize strengthening the core, while Zumba Toning and Zumba Step workouts incorporate weights to build muscles in the arms, legs, and glutes.
+                Traditional Zumba workouts emphasize strengthening the core,
+                while Zumba Toning and Zumba Step workouts incorporate weights
+                to build muscles in the arms, legs, and glutes.
               </p>
             </section>
           </div>
@@ -183,9 +210,7 @@
         </div>
         <footer>
           <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-          <a href="#contact" class="button large scrolly"
-            >Get started</a
-          >
+          <a href="#contact" class="button large scrolly">Get Started</a>
         </footer>
       </div>
     </article>
@@ -194,8 +219,8 @@
     <article id="contact" class="wrapper style4">
       <div class="container medium">
         <header>
-          <h2>Are you ready to workout ? </h2>
-          <p> Drop a mail at duttaneelam119@gmail.com </p>
+          <h2>Are you ready to workout ?</h2>
+          <p>Say Hello at duttaneelam119@gmail.com</p>
         </header>
         <div class="row">
           <!-- <div class="col-12">
@@ -236,7 +261,9 @@
                 >
               </li>
               <li>
-                <a href="https://github.com/duttaneelam" class="icon brands fa-github"
+                <a
+                  href="https://github.com/duttaneelam"
+                  class="icon brands fa-github"
                   ><span class="label">Github</span></a
                 >
               </li>
@@ -251,7 +278,7 @@
 								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
 								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
 								-->
-								<!-- <li><a href="#" class="icon brands fa-github"><span>Github</span></a></li> -->
+              <!-- <li><a href="#" class="icon brands fa-github"><span>Github</span></a></li> -->
             </ul>
             <hr />
           </div>
@@ -273,5 +300,12 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-in-out-sine",
+      });
+    </script>
   </body>
 </html>
