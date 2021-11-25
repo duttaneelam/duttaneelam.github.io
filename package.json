@@ -1,0 +1,22 @@
+{
+  "name": "html5up-miniport",
+  "version": "1.0.0",
+  "description": "Miniport by HTML5 UP\r html5up.net | @ajlkn\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duttaneelam/duttaneelam.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duttaneelam/duttaneelam.github.io/issues"
+  },
+  "homepage": "https://github.com/duttaneelam/duttaneelam.github.io#readme",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}
